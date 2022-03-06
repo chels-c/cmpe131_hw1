@@ -3,4 +3,4 @@ def func_counter(func):
         def wrapper(x):
                 counter += 1
                 func(x)
-        return wrapper
+        return wrapper(x)
