@@ -12,7 +12,3 @@ def sort_list(list):
 		i+=1
 	return list
 
-testList = [0, 4, 2, 3]
-testList2 = [3, 2, 4, 89]
-print(sort_list(testList))
-print(sort_list(testList2))
