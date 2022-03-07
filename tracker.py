@@ -1,6 +1,6 @@
 def func_counter(func):
         counter = 0
-        def wrapper(x):
+        def wrapper(*args):
                 counter += 1
-                func(x)
-        return wrapper(x)
+                func(*args)
+        return wrapper()
