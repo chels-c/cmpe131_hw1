@@ -1,4 +1,4 @@
-def func_counter(func(x)):
+def func_counter(func):
         counter = 0
         def wrapper(x):
                 counter += 1
