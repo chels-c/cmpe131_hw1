@@ -18,4 +18,4 @@ for i in sorted_dict[0:5]:
 
 print("\r")
 for i in newSort:
-	print (i, ":", newSort[i])
+	print (str(i) + ":",  newSort[i])
