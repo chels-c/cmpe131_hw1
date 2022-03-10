@@ -33,6 +33,6 @@ for i in sorted_dict[0:5]:
 
 #print(newSort.items.sort())
 #print(sorted_dict)
-print(newSort)
+#print(newSort)
 for i in newSort:
 	print (i, ":", newSort[i])
