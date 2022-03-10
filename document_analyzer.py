@@ -16,6 +16,6 @@ newSort = {}
 for i in sorted_dict[0:5]:
 	newSort[i[0]] = i[1]
 
-print()
+print(\r)
 for i in newSort:
 	print (i, ":", newSort[i])
