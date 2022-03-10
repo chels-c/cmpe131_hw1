@@ -23,5 +23,6 @@ for i in range(5):
 
 print(sorted_dict[0])
 """
+print()
 for i in sorted_dict[0:5]:
 	print(i[0],':', i[1])
